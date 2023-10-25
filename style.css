@@ -1,0 +1,48 @@
+
+/* Apply styles to the entire body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the keyboard container */
+.keyboard {
+    display: inline-block;
+    text-align: left;
+    border: 12px solid #070707;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Style keyboard rows */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+/* Style individual keys */
+.key {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 2px;
+    cursor: pointer;
+}
+
+/* Style specific key with class "spacekey" differently */
+.spacekey {
+    width: 100px; /* Adjust the width as needed */
+}
+
+/* Define styles for modifier keys like Shift, Control, etc. */
+.key.special {
+    background-color: #aaa;
+    font-weight: bold;
+}
+
+/* Add hover effect for keys */
+.key:hover {
+    background-color: #ddd;
+}
